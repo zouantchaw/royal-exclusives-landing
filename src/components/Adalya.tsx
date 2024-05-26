@@ -9,7 +9,7 @@ import {
 
 const adalyaProducts = {
   "Adalya": {
-    price: 15.99,
+    price: 26.99,
     items: [
       "Skyfall - Juicy watermelon, sweet peach, and refreshing menthol",
       "Mi Amor - Juicy pineapple, ripe banana, and refreshing mint",
