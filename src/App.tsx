@@ -11,6 +11,7 @@ import { Sponsors } from "./components/Sponsors";
 import { Tanya } from "./components/Tanya";
 import { Starbuzz } from "./components/Starbuzz";
 import { Afzal } from "./components/Afzal";
+import { MultiBeam } from "./components/multi-beam";
 
 import "./App.css";
 
@@ -20,11 +21,12 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <Sponsors />
+      <MultiBeam />
       {/* <About /> */}
       <AlFakher />
       <AlFakherMixes />
       <Adalya />
+      <Sponsors />
       <Tanya />
       <Starbuzz />
       <Afzal />
