@@ -8,7 +8,7 @@ import {
 } from "./ui/carousel";
 
 const adalyaProducts = {
-  "Adalya": {
+  Adalya: {
     price: 26.99,
     items: [
       "Skyfall - Juicy watermelon, sweet peach, and refreshing menthol",
@@ -29,7 +29,7 @@ const adalyaProducts = {
       "Gum Mint - A classic bubblegum flavor with a minty finish",
       "Watermelon - A juicy and refreshing watermelon flavor",
       "JK777 - A secret blend of exotic fruits",
-      "Egyptian Double Apple - A traditional double apple flavor with a hint of anise"
+      "Egyptian Double Apple - A traditional double apple flavor with a hint of anise",
     ],
   },
 };
@@ -71,9 +71,8 @@ export const Adalya = () => {
           ))}
         </CarouselContent>
         <CarouselPrevious />
-        <CarouselNext/>
+        <CarouselNext />
       </Carousel>
     </section>
   );
 };
-
