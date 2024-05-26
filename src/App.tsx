@@ -8,6 +8,7 @@ import { Navbar } from "./components/Navbar";
 import { Newsletter } from "./components/Newsletter";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { Sponsors } from "./components/Sponsors";
+import { Tanya } from "./components/Tanya";
 import "./App.css";
 
 
@@ -21,6 +22,7 @@ function App() {
       <AlFakher />
       <AlFakherMixes />
       <Adalya />
+      <Tanya />
       {/* <Features />
       <Services />
       <Cta />
