@@ -1,6 +1,7 @@
 import royalLogo from "../assets/royal-logo.png";
 
 
+// Logo Icon
 export const LogoIcon = () => {
   return (
     <img
