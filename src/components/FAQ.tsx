@@ -125,8 +125,9 @@ export const FAQ = () => {
         Still have questions?{" "}
         <a
           rel="noreferrer noopener"
-          href="#"
+          href="https://www.facebook.com/share/Ah9gHTh4NgpzfjML/?mibextid=LQQJ4d"
           className="text-primary transition-all border-primary hover:border-b-2"
+          target="_blank"
         >
           Contact us
         </a>
