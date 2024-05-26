@@ -52,7 +52,7 @@ export const HeroCards = () => {
           />
         </CardContent>
         <CardFooter className="w-full p-4">
-          <Button className="w-full bg-gradient-to-r from-primary to-primary/80 hover:from-primary/80 hover:to-primary transition-all duration-300">Reserve a Spot</Button>
+          <Button className="w-full bg-gradient-to-r from-primary to-primary/80 hover:from-primary/80 hover:to-primary transition-all duration-300" disabled>Reserve - Coming Soon</Button>
         </CardFooter>
       </Card>
 
