@@ -7,29 +7,26 @@ import {
   CarouselPrevious,
 } from "./ui/carousel";
 
-const tanyaProducts = {
-  Tanya: {
+const afzalProducts = {
+  Afzal: {
     price: 26.99,
     items: [
-      "Passion Fruit - A tropical delight with a tangy twist",
-      "Orange Mint - Refreshing citrus with a cool minty finish",
-      "White Gummy Bear - Sweet and chewy candy flavor",
-      "Watermelon - Juicy and refreshing summer favorite",
-      "Double Apple Mist - Crisp apple with a hint of anise",
+      "Paan Raas - A traditional Indian betel leaf flavor with a sweet and spicy twist",
+      "Kesar Paan - A luxurious blend of saffron and betel leaf for a rich and aromatic experience",
     ],
   },
 };
 
-export const Tanya = () => {
+export const Afzal = () => {
   return (
-    <section id="menu" className="container text-center py-24 sm:py-32">
+    <section id="afzal" className="container text-center py-24 sm:py-32">
       <h2 className="text-3xl md:text-4xl font-bold ">
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Tanya
+          Afzal
         </span>
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-        Price: ${tanyaProducts["Tanya"].price}
+        Price: ${afzalProducts["Afzal"].price}
       </p>
 
       <Carousel
@@ -39,7 +36,7 @@ export const Tanya = () => {
         className="max-w-[90%] mx-auto"
       >
         <CarouselContent className="">
-          {tanyaProducts["Tanya"].items.map((item, index) => (
+          {afzalProducts["Afzal"].items.map((item, index) => (
             <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
               <div className="p-1">
                 <Card className="bg-muted/50 h-full">

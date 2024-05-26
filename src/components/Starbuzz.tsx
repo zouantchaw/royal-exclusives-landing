@@ -7,29 +7,29 @@ import {
   CarouselPrevious,
 } from "./ui/carousel";
 
-const tanyaProducts = {
-  Tanya: {
-    price: 26.99,
+const starbuzzProducts = {
+  Starbuzz: {
+    price: 29.99,
     items: [
       "Passion Fruit - A tropical delight with a tangy twist",
-      "Orange Mint - Refreshing citrus with a cool minty finish",
-      "White Gummy Bear - Sweet and chewy candy flavor",
-      "Watermelon - Juicy and refreshing summer favorite",
-      "Double Apple Mist - Crisp apple with a hint of anise",
+      "Mint - Refreshing and cool minty flavor",
+      "Queen of Sex - Exotic blend with a hint of mystery",
+      "Citrus Mist - Zesty citrus with a refreshing finish",
+      "Blue Mist - Sweet and smooth blueberry flavor",
     ],
   },
 };
 
-export const Tanya = () => {
+export const Starbuzz = () => {
   return (
-    <section id="menu" className="container text-center py-24 sm:py-32">
+    <section id="starbuzz" className="container text-center py-24 sm:py-32">
       <h2 className="text-3xl md:text-4xl font-bold ">
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Tanya
+          Starbuzz
         </span>
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-        Price: ${tanyaProducts["Tanya"].price}
+        Price: ${starbuzzProducts["Starbuzz"].price}
       </p>
 
       <Carousel
@@ -39,7 +39,7 @@ export const Tanya = () => {
         className="max-w-[90%] mx-auto"
       >
         <CarouselContent className="">
-          {tanyaProducts["Tanya"].items.map((item, index) => (
+          {starbuzzProducts["Starbuzz"].items.map((item, index) => (
             <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
               <div className="p-1">
                 <Card className="bg-muted/50 h-full">

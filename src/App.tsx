@@ -9,6 +9,9 @@ import { Newsletter } from "./components/Newsletter";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { Sponsors } from "./components/Sponsors";
 import { Tanya } from "./components/Tanya";
+import { Starbuzz } from "./components/Starbuzz";
+import { Afzal } from "./components/Afzal";
+
 import "./App.css";
 
 
@@ -23,6 +26,8 @@ function App() {
       <AlFakherMixes />
       <Adalya />
       <Tanya />
+      <Starbuzz />
+      <Afzal />
       {/* <Features />
       <Services />
       <Cta />
